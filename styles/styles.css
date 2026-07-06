@@ -199,3 +199,24 @@ body.dark-mode #theme-toggle {
     background: #444;
     color: white;
 }
+
+/* Responsive Design - for mobile*/
+@media (max-width: 768px) {
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+}
