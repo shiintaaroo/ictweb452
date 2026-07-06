@@ -3,6 +3,11 @@
 
 /* General */
 body {
+    background-color: yellow;
+}
+
+
+body {
     font-family: 'Rubik', sans-serif;
     background-color: #ffffff;
     color: #080808;
