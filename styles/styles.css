@@ -139,14 +139,6 @@ textarea:focus {
     outline: 2px solid #0066cc;
 }
 
-/* Dark-mode Start */
-/* Light Mode (default) */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-}
-
 /* Dark Mode */
 body.dark-mode {
     background-color: #1e1e1e;
@@ -156,7 +148,7 @@ body.dark-mode header {
     background-color: #121212;
 }
 
-body.dar-mode nav a {
+body.dark-mode nav a {
     color: #ffffff;
 }
 
@@ -168,4 +160,25 @@ color: #ffffff;
 body.dark-mode {
     background-color: #1e1e1e;
     color: #ffffff;
+}
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3 {
+    color: white;
+}
+
+body.dark-mode section {
+    background-color: #2a2a2a;
+    color: white;
+}
+
+body.dark-mode table,
+body.dark-mode th,
+body.dark-mode td {
+    border-color: #555;
+}
+
+body.dark-mode th {
+    background-color: #333;
 }
