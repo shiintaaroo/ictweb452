@@ -14,9 +14,10 @@ body {
 
 /* Header / Banner */
 header {
-    background-color: #f3f3f3;
-    padding: 20px;
-    border-bottom: 2px solid #cccccc;
+    background-color: #0066cc;
+    color: white;
+    text-align: center;
+    padding: 30px;
 }
 
 header h1 {
@@ -46,6 +47,15 @@ main {
     max-width: 1000px;
     margin: 20px auto;
     padding: 20px;
+}
+
+/* Welcome section */
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 /* Headings */
