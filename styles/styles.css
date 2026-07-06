@@ -139,11 +139,11 @@ body {
 
 /* Dark Mode */
 body.dark-mode {
-    background-olor: #1e1e1e;
+    background-color: #1e1e1e;
     color: #ffffff;}
 
 body.dark-mode header {
-    bacground-color: #121212;
+    background-color: #121212;
 }
 
 body.dar-mode nav a {
@@ -151,7 +151,7 @@ body.dar-mode nav a {
 }
 
 body.dark-mode footer {
-    backround-color: #121212;
+    background-color: #121212;
 color: #ffffff;
 }
 
