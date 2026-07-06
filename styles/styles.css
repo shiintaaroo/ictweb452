@@ -145,7 +145,7 @@ body.dark-mode {
     color: #ffffff;}
 
 body.dark-mode header {
-    background-color: #121212;
+    background: #121212;
 }
 
 body.dark-mode nav a {
@@ -181,4 +181,20 @@ body.dark-mode td {
 
 body.dark-mode th {
     background-color: #333;
+}
+
+/* Dark Mode - toggle Style*/
+#theme-toggle {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background: white;
+    color: #333;
+    margin-top: 10px;
+}
+
+body.dark-mode #theme-toggle {
+    background: #444;
+    color: white;
 }
