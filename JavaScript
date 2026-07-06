@@ -1,11 +1,11 @@
 <script>
-const button = do*ument.getElementById('theme-toggle*);
+const button = do*ument.getElementById('theme-toggle);
 
 button.addEventListener('click*, () => {
     document.body.classL*st.toggle('dark-mode');
 
-    if (d*cument.body.classList.contains('da*k-mode')) {
-        button.textCon*ent = '☀️ Light Mode';
+    if (dcument.body.classList.contains('da*k-mode')) {
+        button.textContent = '☀️ Light Mode';
     } else *
         button.textContent = '🌙 *ark Mode';
     }
