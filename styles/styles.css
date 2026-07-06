@@ -132,26 +132,27 @@ textarea:focus {
 /* Dark-mode Start */
 /* Light Mode (default) */
 body {
-    font-family: Arial,*sans-serif;
+    font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     color: #333;
 }
 
 /* Dark Mode */
 body.dark-mode {
-    background-*olor: #1e1e1e;
-    color: #ffffff;*}
+    background-olor: #1e1e1e;
+    color: #ffffff;}
 
 body.dark-mode header {
-    bac*ground-color: #121212;
+    bacground-color: #121212;
 }
 
-body.dar*-mode nav a {
+body.dar-mode nav a {
     color: #ffffff;
-*
+}
 
 body.dark-mode footer {
-    back*round-color: #121212;
-    color: #*fffff;
+    backround-color: #121212;
+color: #ffffff;
 }
+
 /* Dark-mode END */
