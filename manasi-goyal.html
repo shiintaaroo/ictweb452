@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>David Milano Resume</title>
-    <link rel="stylesheet" href="styles/styles.css">
+    <title>Manasi Goyal Resume</title>
+    styles/styles.css
 </head>
 <body>
     <header>
@@ -15,22 +15,22 @@
         </nav>
     </header>
     <main>
-        <h2>David Milano</h2>
+        <h2>Manasi Goyal</h2>
         <section class="card">
-            <h3>Personal Details</h3>
-            <p><strong>Name:</strong> David Milano</p>
-            <p><strong>Phone:</strong> 404.555.0111</p>
-            <p><strong>Email:</strong> davide@example.com</p>
-            <p><strong>Location:</strong> San Antonio, TX</p>
+            <img src="images/Manasi Goyal.png" alt="Manasi Goyal" class="staff         
+            <p><strong>Name:</strong> Manasi Goyal</p>
+            <p><strong>Phone:</strong> +91 915 5894669</p>
+            <p><strong>Email:</strong> manasi@example.com</p>
+            <p><strong>Location:</strong> Pune, Maharashtra</p>
             <p><strong>Website:</strong> www.interestingsite.com</p>
+            <p><strong>Position:</strong> Graphic Designer</p>
         </section>
         <section class="card">
-            <h3>About</h3>
+            <h3>Objective</h3>
             <p>
-                David Milano has strong expertise in injury prevention,
-                rehabilitation, and performance enhancement. He has excellent
-                communication skills, attention to detail, and a commitment
-                to providing quality care.
+                To leverage my creativity and design skills to develop visually
+                compelling and effective designs that meet the needs and exceed
+                the expectations of clients.
             </p>
         </section>
         <section class="card">
@@ -42,47 +42,46 @@
                     <th>Organisation</th>
                 </tr>
                 <tr>
-                    <td>2018 - Current</td>
-                    <td>Teacher</td>
-                    <td>Murray TAFE / Mildura, AU</td>
+                    <td>20XX - 20XX</td>
+                    <td>Art Director</td>
+                    <td>Sundara Design Co. / Jaipur, Rajasthan</td>
                 </tr>
                 <tr>
-                    <td>2011 - 2017</td>
-                    <td>Sports Medicine Physical Therapist</td>
-                    <td>The San Antonio Skunks / San Antonio, TX</td>
+                    <td>20XX - 20XX</td>
+                    <td>Senior Designer</td>
+                    <td>Prem Rekhaen / Hyderabad, Telangana</td>
                 </tr>
                 <tr>
-                    <td>2007 - 2010</td>
-                    <td>Sports Medicine Physical Therapist</td>
-                    <td>Urban Elite Health & Fitness / Scottsdale, AZ</td>
+                    <td>20XX - 20XX</td>
+                    <td>Graphic Designer</td>
+                    <td>Kala Aaj / Bangalore, Karnataka</td>
                 </tr>
             </table>
         </section>
         <section class="card">
             <h3>Education</h3>
             <ul>
-                <li>Doctor of Physical Therapy - Glennwood University, 2007 - 2009</li>
-                <li>Master of Science in Athletic Training - Glennwood University, 2005 - 2006</li>
-                <li>Bachelor of Science in Kinesiology - Bellows College, 2001 - 2004</li>
+                <li>Master of Arts Graphic Design - Graphic Design Institute</li>
+                <li>BA Fine Arts Graphic Design - School of Fine Art</li>
             </ul>
         </section>
         <section class="card">
             <h3>Skills</h3>
             <ul>
-                <li>Strong knowledge of injury prevention</li>
-                <li>Excellent communication skills</li>
-                <li>Attention to detail</li>
-                <li>Ability to collaborate effectively</li>
-                <li>Providing high-quality care</li>
+                <li>Design software</li>
+                <li>Visual communication</li>
+                <li>Branding</li>
+                <li>Project management</li>
             </ul>
         </section>
         <section class="card">
-            <h3>Attributes</h3>
-            <ul>
-                <li>Professional</li>
-                <li>Reliable</li>
-                <li>Detail-oriented</li>
-            </ul>
+            <h3>Experience Summary</h3>
+            <p>
+                Manasi Goyal has experience developing integrated campaigns,
+                leading design projects from concept to completion, and working
+                with cross-functional teams to support effective design project
+                execution.
+            </p>
         </section>
         <p>
             <a href="resume.html">Back to staff list</a>
@@ -94,16 +93,17 @@
     <!-- Dark-mode START -->
     <script>
     const button = document.getElementById('theme-toggle');
-    /* When reding page */
+    /* When reading page */
     if (localStorage.getItem('theme') === 'dark') {
         document.body.classList.add('dark-mode');
         button.textContent = '☀️ Light Mode';
     } else {
         button.textContent = '🌙 Dark Mode';
     }
-    /* When Click */
+    /* When clicked */
     button.addEventListener('click', () => {
         document.body.classList.toggle('dark-mode');
+
         if (document.body.classList.contains('dark-mode')) {
             button.textContent = '☀️ Light Mode';
             localStorage.setItem('theme', 'dark');
