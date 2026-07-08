@@ -84,6 +84,39 @@ img {
     margin: 20px auto;
 }
 
+/* staff-photo */
+.staff-card {
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.staff-photo {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.profile-link {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: #0066cc;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.profile-link:hover {
+    background-color: #004c99;
+}
+
 /* Tables */
 table {
     width: 100%;
