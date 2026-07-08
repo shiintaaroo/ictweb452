@@ -239,6 +239,31 @@ body.dark-mode th {
     background-color: #333;
 }
 
+
+/* Staff Card Dark Mode */
+body.dark-mode .staff-card {
+   background-color: #2a2a2a;
+    color: white;
+    box-shadow: 0 2px 6p* rgba(255,255,255,0.1);
+}
+
+body.dark-mode .staff-card h3 {
+    color:white;
+}
+
+body.dark-mode .profile-link {
+    background-color: #0d6efd;
+    color: white;
+}
+
+body.dark-mode .profile-link:hover {
+    background-color: #0b5ed7;
+}
+
+body.dark-mode .staff-photo {
+    border: 2px solid #555;
+}
+
 /* Dark Mode - toggle Style*/
 #theme-toggle {
     padding: 8px 15px;
