@@ -68,6 +68,11 @@ section {
     padding: 40px;
 }
 
+/* Welcom p*/
+.welcome p {
+    text-align: center;
+}
+
 
 /* Headings */
 h1,
