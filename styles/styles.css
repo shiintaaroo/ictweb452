@@ -257,9 +257,6 @@ body.dark-mode .profile-link {
     color: white;
 }
 
-body.dark-mode .profile-link:hover {
-    background-color: #0b5ed7;
-}
 
 body.dark-mode .staff-photo {
     border: 2px solid #555;
