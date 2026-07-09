@@ -100,7 +100,7 @@ img {
 /* staff-photo */
 .staff-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 180px);
+    grid-template-columns: repeat(3, 180px);
     justify-content: center;
     gap: 20px;
 }
