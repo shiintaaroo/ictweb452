@@ -110,11 +110,13 @@ img {
 
 .staff-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 220px);
     gap: 40px;
-    max-width: 900px;
-    margin: 0 auto;
+    justify-content: center;
+
+    border: 2px solid red;
 }
+
 
 .staff-card {
     padding: 15px;
