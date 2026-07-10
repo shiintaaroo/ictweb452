@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jordan Mitchell Resume</title>
+    styles/styles.css
+</head>
+<body>
+    <header>
+        <h1>Murray Tafe Staff Profile</h1>
+        <button id="theme-toggle">🌙 Dark Mode</button>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="resume.html">Resume</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Jordan Mitchell</h2>
+        images/Jordan Mitchell.png
+        <section class="card">
+            <h3>Personal Details</h3>
+            <p><strong>Name:</strong> Jordan Mitchell</p>
+            <p><strong>Phone:</strong> (212) 555-0155</p>
+            <p><strong>Email:</strong> jordan@example.com</p>
+            <p><strong>Location:</strong> New York City, NY</p>
+            <p><strong>Website:</strong> www.interestingsite.com</p>
+            <p><strong>Position:</strong> UI/UX Designer</p>
+        </section>
+
+        <section class="card">
+            <h3>About</h3>
+            <p>
+                Jordan Mitchell is passionate about designing digital experiences
+                that are both visually engaging and easy to use. Jordan aims to
+                create intuitive designs that support user needs and business goals.
+            </p>
+        </section>
+
+        <section class="card">
+            <h3>Work Experience</h3>
+            <table>
+                <tr>
+                    <th>Year</th>
+                    <th>Position</th>
+                    <th>Organisation</th>
+                </tr>
+                <tr>
+                    <td>Jan 20XX - Dec 20XX</td>
+                    <td>Senior UI/UX Designer</td>
+                    <td>Proseware, Inc.</td>
+                </tr>
+                <tr>
+                    <td>Oct 20XX - Jul 20XX</td>
+                    <td>UI/UX Designer</td>
+                    <td>Proseware, Inc.</td>
+                </tr>
+                <tr>
+                    <td>Feb 20XX - Oct 20XX</td>
+                    <td>UI/UX Designer</td>
+                    <td>Relecloud</td>
+                </tr>
+            </table>
+        </section>
+
+        <section class="card">
+            <h3>Education</h3>
+            <ul>
+                <li>BFA, Graphic Design - School of Fine Art</li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h3>Skills</h3>
+            <ul>
+                <li>UI/UX design</li>
+                <li>User research</li>
+                <li>Usability testing</li>
+                <li>Project management</li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h3>Experience Summary</h3>
+            <p>
+                Jordan Mitchell has experience designing user-friendly digital
+                interfaces, creating wireframes, prototypes, and high-fidelity
+                mockups, conducting user research and usability testing, and
+                collaborating with development teams to deliver effective web
+                and mobile design solutions.
+            </p>
+        </section>
+
+        <p>
+            <a href="resume.html">Back to staff list</a>
+        </p>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Murray Tafe</p>
+    </footer>
+
+    <!-- Dark-mode START -->
+    <script>
+    const button = document.getElementById('theme-toggle');
+
+    /* When reading page */
+    if (localStorage.getItem('theme') === 'dark') {
+        document.body.classList.add('dark-mode');
+        button.textContent = '☀️ Light Mode';
+    } else {
+        button.textContent = '🌙 Dark Mode';
+    }
+
+    /* When clicked */
+    button.addEventListener('click', () => {
+        document.body.classList.toggle('dark-mode');
+
+        if (document.body.classList.contains('dark-mode')) {
+            button.textContent = '☀️ Light Mode';
+            localStorage.setItem('theme', 'dark');
+        } else {
+            button.textContent = '🌙 Dark Mode';
+            localStorage.setItem('theme', 'light');
+        }
+    });
+    </script>
+    <!-- Dark-mode END -->
+</body>
+</html>
