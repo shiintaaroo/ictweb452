@@ -55,6 +55,9 @@ main {
     max-width: 1000px;
     margin: 20px auto;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 main h2 {
