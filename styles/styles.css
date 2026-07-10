@@ -107,21 +107,19 @@ img {
 }
 
 /* staff-photo */
+
 .staff-grid {
     display: grid;
-    grid-template-columns: repeat(3, 180px);
-    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
     gap: 40px;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 .staff-card {
-    width: 180px;
-    padding: 10px;
-    text-align: center;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    padding: 15px;
 }
+
 
 
 .staff-photo {
