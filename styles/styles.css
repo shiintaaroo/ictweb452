@@ -169,6 +169,7 @@ textarea {
     margin-bottom: 15px;
     box-sizing: border-box;
     font-family: 'Rubik', sans-serif;
+    text-align: center;
 }
 
 input[type="submit"] {
