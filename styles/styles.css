@@ -27,7 +27,7 @@ header {
 
 header h1 {
     margin: 0;
-    text-align: left;
+    text-align: center;
 }
 
 /* Navigation */
@@ -59,7 +59,7 @@ main {
 }
 
 main h2 {
-    text-align: left;
+    text-align: center;
     margin-bottom: 10px;
 }
 
@@ -79,12 +79,12 @@ section {
 }
 
 .welcome h2 {
-    text-align: left;
+    text-align: center;
 }
 
 /* Welcom p*/
 .welcome p {
-    text-align: left;
+    text-align: center;
 }
 
 
@@ -115,7 +115,7 @@ img {
 .staff-card {
     width: 180px;
     padding: 10px;
-    text-align: left;
+    text-align: center;
     background: white;
     border-radius: 10px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
