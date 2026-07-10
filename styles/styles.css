@@ -61,9 +61,9 @@ main {
     gap: 35px;
 }
 
-
 main h2 {
     text-align: center;
+    margin-bottom: 10px;
 }
 
 /* Welcome section */
