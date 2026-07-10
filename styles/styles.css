@@ -289,8 +289,8 @@ body.dark-mode #theme-toggle {
     color: white;
 }
 
-/* Responsive Design - for mobile*/
-@media (max-width: 768px) {
+/* Responsive Design - for smartphone*/
+@media (max-width: 600px) {
 
     nav a {
         display: block;
@@ -308,4 +308,47 @@ body.dark-mode #theme-toggle {
     h1 {
         font-size: 1.8rem;
     }
+    
+    .staff-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .staff-card {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+}
+
+/* Responsive Design - for tablet*/
+@media (max-width: 900px) {
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .staff-grid {
+        grid-template-columns: repeat(2, 220px);
+    }
+
+    .staff-card {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
 }
