@@ -113,16 +113,11 @@ img {
     grid-template-columns: repeat(3, 220px);
     gap: 40px;
     justify-content: center;
-
-    border: 2px solid red;
 }
-
 
 .staff-card {
     padding: 15px;
 }
-
-
 
 .staff-photo {
     width: 120px;
