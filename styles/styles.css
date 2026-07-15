@@ -59,7 +59,7 @@ main {
 }
 
 main h2 {
-    text-align: center;
+    text-align: left;
     margin-bottom: 10px;
 }
 
@@ -79,12 +79,12 @@ section {
 }
 
 .welcome h2 {
-    text-align: center;
+    text-align: left;
 }
 
 /* Welcom p*/
 .welcome p {
-    text-align: center;
+    text-align: left;
 }
 
 
