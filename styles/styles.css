@@ -73,7 +73,7 @@ section {
 }
 
 /* Welcom */
-.Welcom {
+.welcom {
     text-align: left;
     padding: 40px;
 }
@@ -107,19 +107,14 @@ img {
 
 .staff-grid {
     display: grid;
-    grid-template-columns: repeat(3, 220px);
-    gap: 40px;
-    justify-content: left;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
 }
 
 .staff-card {
-    width: 180px;
-    padding: 10px;
-    text-align: center;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-} 
+    width: 100%;
+    box-sizing: border-box;
+}
 
 .staff-photo {
     width: 120px;
