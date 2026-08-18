@@ -358,5 +358,17 @@ body.dark-mode #theme-toggle {
         text-decoration: underline;
 }
 
+    /* Dark Mode - All Links */
+    body.dark-mode a,
+    body.dark-mode a:link,
+    body.dark-mode a:visited {
+        color: #ffffff !important;
+    }
+
+    body.dark-mode a:hover,
+    body.dark-mode a:focus {
+        color: #cccccc !important;
+    }
+
 }
 
