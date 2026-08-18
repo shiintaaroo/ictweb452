@@ -344,8 +344,9 @@ body.dark-mode #theme-toggle {
     }
 
     /* Dark Mode Links */
-    body.dark-mode a {
-        color: white;
+    body.dark-mode a,
+    body.dark-mode a:visited {
+    color: white;
     }
 
     body.dark-mode a:visited {
