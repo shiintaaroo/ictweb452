@@ -343,4 +343,20 @@ body.dark-mode #theme-toggle {
         margin: 0 auto;
     }
 
+    /* Dark Mode Links */
+    body.dark-mode a {
+        color: white;
+    }
+
+    body.dark-mode a:visited {
+        color: white;
+    }
+
+    body.dark-mode a:hover,
+    body.dark-mode a:focus {
+        color: #cccccc;
+        text-decoration: underline;
 }
+
+}
+
